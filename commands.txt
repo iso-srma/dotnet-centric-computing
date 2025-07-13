@@ -1,0 +1,23 @@
+commands
+
+step : 1
+
+Make Sure .NET SDK is Installed
+https://dotnet.microsoft.com/en-us/download
+
+terminal 
+to check version 
+dotnet --version
+
+step 2 making a new project name CSharpBasics
+dotnet new console -n CSharpBasics
+
+
+step -3 :Navigate to Your Project Folder
+cd CSharpBasics
+
+step :4 Run the project
+dotnet run
+
+
+
