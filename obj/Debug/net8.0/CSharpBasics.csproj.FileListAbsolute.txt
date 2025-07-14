@@ -12,3 +12,4 @@ C:\Users\isosr\OneDrive\Desktop\net centric computing\easy\CSharpBasics\obj\Debu
 C:\Users\isosr\OneDrive\Desktop\net centric computing\easy\CSharpBasics\obj\Debug\net8.0\CSharpBasics.pdb
 C:\Users\isosr\OneDrive\Desktop\net centric computing\easy\CSharpBasics\obj\Debug\net8.0\CSharpBasics.genruntimeconfig.cache
 C:\Users\isosr\OneDrive\Desktop\net centric computing\easy\CSharpBasics\obj\Debug\net8.0\ref\CSharpBasics.dll
+C:\Users\isosr\OneDrive\Desktop\net centric computing\easy\csharpbasics\obj\Debug\net8.0\CSharpBasics.sourcelink.json

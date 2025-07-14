@@ -1,15 +1,21 @@
-﻿using System;  // Import system namespace
+﻿using System;
 
-// Namespace declaration (optional in small programs)
-namespace CSharpBasics
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Console.Write("Enter your name: ");
+//         string? x = Console.ReadLine();
+
+//         Console.WriteLine("Hello, " + x + "! Welcome to C# Basics.");
+//     }
+// }
+
+
+class program 
 {
-    // Class declaration
-    class Program
+    static void Main()
     {
-        // Main method – entry point of every C# program
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, Ishwor!");
-        }
+        console.WriteLine("Hello its me ishwor sharma")
     }
 }

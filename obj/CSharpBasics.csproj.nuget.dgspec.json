@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isosr\\OneDrive\\Desktop\\net centric computing\\easy\\CSharpBasics\\CSharpBasics.csproj": {}
+    "C:\\Users\\isosr\\OneDrive\\Desktop\\net centric computing\\easy\\csharpbasics\\CSharpBasics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isosr\\OneDrive\\Desktop\\net centric computing\\easy\\CSharpBasics\\CSharpBasics.csproj": {
+    "C:\\Users\\isosr\\OneDrive\\Desktop\\net centric computing\\easy\\csharpbasics\\CSharpBasics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isosr\\OneDrive\\Desktop\\net centric computing\\easy\\CSharpBasics\\CSharpBasics.csproj",
+        "projectUniqueName": "C:\\Users\\isosr\\OneDrive\\Desktop\\net centric computing\\easy\\csharpbasics\\CSharpBasics.csproj",
         "projectName": "CSharpBasics",
-        "projectPath": "C:\\Users\\isosr\\OneDrive\\Desktop\\net centric computing\\easy\\CSharpBasics\\CSharpBasics.csproj",
+        "projectPath": "C:\\Users\\isosr\\OneDrive\\Desktop\\net centric computing\\easy\\csharpbasics\\CSharpBasics.csproj",
         "packagesPath": "C:\\Users\\isosr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isosr\\OneDrive\\Desktop\\net centric computing\\easy\\CSharpBasics\\obj\\",
+        "outputPath": "C:\\Users\\isosr\\OneDrive\\Desktop\\net centric computing\\easy\\csharpbasics\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isosr\\AppData\\Roaming\\NuGet\\NuGet.Config"
