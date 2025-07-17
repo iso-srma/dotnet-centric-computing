@@ -20,4 +20,23 @@ step :4 Run the project
 dotnet run
 
 
+/////
+
+1st program 
+using System;
+
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Console.Write("Enter your name: ");
+//         string? x = Console.ReadLine();
+
+//         Console.WriteLine("Hello, " + x + "! Welcome to C# Basics.");
+//     }
+// }
+
+
+
+
 
