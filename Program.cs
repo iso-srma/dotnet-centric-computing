@@ -2,7 +2,7 @@
 
 // class Program
 // {
-//     static void Main(string[] args)
+//     static void Main1(string[] args)
 //     {
 //         Console.Write("Enter your name: ");
 //         string? x = Console.ReadLine();
@@ -12,10 +12,10 @@
 // }
 
 
-class program 
+class Program 
 {
-    static void Main()
+    static void Main37()
     {
-        console.WriteLine("Hello its me ishwor sharma")
+        Console.WriteLine("Hello its me ishwor sharma");
     }
 }
