@@ -7,6 +7,7 @@ class IterationStatement
         IterationStatement iterationStatement = new IterationStatement();
         iterationStatement.LearnForLoop();
         iterationStatement.CheckEvenOdd();
+        iterationStatement.LearnWhileLoop();
 
 
     }
@@ -33,4 +34,15 @@ class IterationStatement
             }
         }
     }
+
+    void LearnWhileLoop()
+    {
+        int i = 0;
+        while (i < 10)
+        {
+            Console.WriteLine("I am a handsome guy " + i);
+            i++;
+        }
+    }
+
 }
