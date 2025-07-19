@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.Globalization;
 class IterationStatement
 {
@@ -37,12 +38,15 @@ class IterationStatement
 
     void LearnWhileLoop()
     {
-        int i = 0;
-        while (i < 10)
+        Char conform = "y";
+        while (conform == 'y')
+
         {
-            Console.WriteLine("I am a handsome guy " + i);
-            i++;
+            Console.WriteLine("I am a handsome guy");
+            Console.WriteLine("Do you want to continue? (y/n)");  
+            conform = Console.ReadKey().KeyChar;
         }
     }
+
 
 }
