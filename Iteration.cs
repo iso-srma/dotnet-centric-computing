@@ -43,8 +43,11 @@ class IterationStatement
 
         {
             Console.WriteLine("I am a handsome guy");
-            Console.WriteLine("Do you want to continue? (y/n)");  
+            Console.WriteLine("Do you want to continue? (y/n)");
             conform = Console.ReadKey().KeyChar;
+            Console.WriteLine(); // To move to the next line after key press
+            conform = char.ToLower(conform, CultureInfo.InvariantCulture);
+            if (conform != 'y' && conform != 'n')       
         }
     }
 
