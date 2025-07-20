@@ -38,14 +38,12 @@ class IterationStatement
 
     void LearnWhileLoop()
     {
-        Char conform = "y";
-        while (conform == 'y')
-
+        char conform = 'y';
+        while (conform == 'y' || conform == 'Y')
         {
-            Console.WriteLine("I am a handsome guy");
-            Console.WriteLine("Do you want to continue? (y/n)");
+            Console.WriteLine("Hey I am a handsome guy");
+            Console.WriteLine("Do you want to see me again? (y/n)");
             conform = Console.ReadKey().KeyChar;
-     
         }
     }
 
