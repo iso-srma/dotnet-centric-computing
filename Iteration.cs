@@ -46,6 +46,15 @@ class IterationStatement
             conform = Console.ReadKey().KeyChar;
         }
     }
-
+void LearnDoWhileLoop()
+    {
+        char conform = 'y';
+        do
+        {
+            Console.WriteLine("Hey I am a handsome guy");
+            Console.WriteLine("Do you want to see me again? (y/n)");
+            conform = Console.ReadKey().KeyChar;
+        } while (conform == 'y' || conform == 'Y');
+    }
 
 }
