@@ -36,12 +36,60 @@ using System;
 //     }
 // }
 
+🔐 Access Modifiers in .NET
+Access modifiers control the visibility and accessibility of classes, methods, variables, etc.
 
-access modifier 
+1. private
+🔒 Most restrictive.
 
-Private 
-public 
-internal 
+Accessible only within the same class or struct.
+
+Default for class members if not specified.
+
+csharp
+Copy code
+class MyClass {
+    private int secret = 42;
+
+    private void ShowSecret() {
+        Console.WriteLine(secret);
+    }
+}
+✅ Use it to encapsulate and protect data.
+
+2. public
+🌍 Most accessible.
+
+Can be accessed from anywhere (other classes, assemblies, etc).
+
+csharp
+Copy code
+public class Car {
+    public void StartEngine() {
+        Console.WriteLine("Vroom!");
+    }
+}
+✅ Use it for APIs, public methods, or libraries meant for external use.
+
+3. internal
+🏠 Accessible only within the same assembly.
+
+Not visible to other projects unless you use [InternalsVisibleTo].
+
+csharp
+Copy code
+internal class Helper {
+    internal void DoWork() {
+        Console.WriteLine("Working internally");
+    }
+}
+✅ Great for modular design where certain parts of the code are shared across the app but hidden from outside projects.
+
+Summary Table
+Modifier	Access Level	Typical Use Case
+private	Same class only	Hide internal logic / secure data
+public	Anywhere (no restriction)	Public APIs / reusable libraries
+internal	Same assembly only	Shared logic within project, not for public use
 
 
 
