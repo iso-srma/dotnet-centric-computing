@@ -223,5 +223,7 @@ Platform	Windows	Cross-platform
 Performance	Moderate	High
 Modern Support	Less	Yes (future-proof)
 
-
-
+History of C# – Short Notes
+🔹 Developed By: Microsoft
+🔹 Lead Designer: Anders Hejlsberg (also helped create Turbo Pascal and Delphi)
+🔹 Introduced: In the year 2000
