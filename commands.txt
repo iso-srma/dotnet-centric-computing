@@ -258,3 +258,175 @@ Microsoft needed a modern, simple, object-oriented language for its new .NET pla
 
 To compete with Java and fit tightly with the Common Language Runtime (CLR).
 
+
+
+. Introduction to C#
+Developed by Microsoft, led by Anders Hejlsberg.
+
+Released in 2000 with the .NET Framework.
+
+Object-oriented, type-safe, modern programming language.
+
+Combines power of C++ with simplicity of Java.
+
+🔹 2. Key Features of C#
+Object-Oriented (OOP): Classes, Inheritance, Polymorphism
+
+Type-Safe: Prevents type errors at compile time.
+
+Component-Oriented: Supports building reusable components.
+
+Interoperable: Can use existing COM and .NET components.
+
+Automatic Garbage Collection
+
+Cross-Platform support via .NET Core/.NET 5+
+
+🔹 3. Basic Syntax
+csharp
+
+using System;
+
+class Program {
+    static void Main() {
+        Console.WriteLine("Hello, World!");
+    }
+}
+using: Imports a namespace.
+
+Main(): Entry point of the program.
+
+Console.WriteLine(): Prints output.
+
+🔹 4. Data Types in C#
+Type	Example
+int	10
+float	10.5f
+double	10.5
+bool	true / false
+char	'A'
+string	"Hello"
+
+🔹 5. Variables & Constants
+csharp
+
+int age = 20;
+const double PI = 3.14;
+🔹 6. Operators
+Arithmetic: + - * / %
+
+Comparison: == != > < >= <=
+
+Logical: && || !
+
+Assignment: = += -= *= /=
+
+🔹 7. Control Statements
+csharp
+
+// If-Else
+if (age >= 18) {
+    Console.WriteLine("Adult");
+} else {
+    Console.WriteLine("Minor");
+}
+
+// Switch
+switch (day) {
+    case 1: Console.WriteLine("Sunday"); break;
+    default: Console.WriteLine("Invalid"); break;
+}
+
+// Loop
+for(int i=0; i<5; i++) {
+    Console.WriteLine(i);
+}
+🔹 8. Object-Oriented Concepts
+Class: Blueprint of objects
+
+Object: Instance of a class
+
+Constructor: Initializes an object
+
+Inheritance: Reuse code from base class
+
+Polymorphism: Same method, different behavior
+
+Encapsulation: Data hiding using access modifiers
+
+Abstraction: Hiding complex logic
+
+csharp
+
+class Animal {
+    public void Speak() {
+        Console.WriteLine("Animal sound");
+    }
+}
+
+class Dog : Animal {
+    public void Bark() {
+        Console.WriteLine("Dog barks");
+    }
+}
+🔹 9. Arrays & Collections
+csharp
+
+// Array
+int[] numbers = {1, 2, 3};
+
+// List
+List<string> names = new List<string>();
+names.Add("Ishwor");
+🔹 10. Functions / Methods
+csharp
+Copy
+Edit
+void Greet(string name) {
+    Console.WriteLine("Hello " + name);
+}
+🔹 11. Exception Handling
+csharp
+
+try {
+    int x = 5 / 0;
+} catch (DivideByZeroException e) {
+    Console.WriteLine("Error: " + e.Message);
+} finally {
+    Console.WriteLine("Done");
+}
+🔹 12. File Handling
+csharp
+
+File.WriteAllText("test.txt", "Hello C#");
+string data = File.ReadAllText("test.txt");
+Console.WriteLine(data);
+🔹 13. Namespaces & Assemblies
+Namespace: Organize code (like a folder)
+
+Assembly: Compiled code (DLL or EXE)
+
+🔹 14. Access Modifiers
+Modifier	Scope
+public	Accessible anywhere
+private	Within class only
+protected	Class + derived class
+internal	Same project/assembly
+
+🔹 15. Modern C# Features
+var keyword (implicit typing)
+
+async/await for async programming
+
+LINQ for querying data
+
+Records (C# 9+): Immutable data types
+
+Pattern Matching (C# 7+)
+
+🔹 16. Real-Life Applications
+✅ Web Apps using ASP.NET
+✅ Mobile Apps using Xamarin
+✅ Game Development using Unity
+✅ Desktop Apps using WinForms/WPF
+✅ APIs and Microservices using .NET Core
