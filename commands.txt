@@ -430,3 +430,28 @@ Pattern Matching (C# 7+)
 ✅ Game Development using Unity
 ✅ Desktop Apps using WinForms/WPF
 ✅ APIs and Microservices using .NET Core
+
+ C# Founder – At a Glance
+🔹 Founder / Chief Architect:
+🧠 Anders Hejlsberg
+
+🧑‍🏫 About Anders Hejlsberg:
+A Danish software engineer.
+
+Previously known for:
+
+Creating Turbo Pascal (1983)
+
+Leading development of Delphi at Borland
+
+📅 C# Development Timeline:
+Late 1990s: Microsoft starts development under the name "Cool" (C-like Object Oriented Language).
+
+2000: C# officially announced by Microsoft alongside the .NET Framework.
+
+Anders served as lead architect of C#.
+
+🏢 Organization:
+Developed by Microsoft
+
+Released in 2000 as part of .NET Framework 1.0
