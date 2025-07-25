@@ -93,4 +93,135 @@ internal	Same assembly only	Shared logic within project, not for public use
 
 
 
+::::::::::::::::::webpages in c sharp ::::::::::::::
+
+net centric computing ko path ma janey ra terminal kholney 
+terminal ma ::::
+dotnet new
+dotnet new web -n WebAppAmpty(folder name  for webpage)
+
+tespachii WebPageAmpty web page folder banchha 
+
+terminal ma :
+dotnet new mvc -n WebAppMvc 
+(web page created)
+dotnet build 
+dotnet run 
+output ayoo 
+
+ Web Pages in C#
+🔹 1. What Are Web Pages in C#?
+Web Pages in C# refer to dynamic web content built using ASP.NET Web Pages (or ASP.NET Core) where C# is used to write server-side logic.
+
+Think of it like this:
+
+HTML + CSS + JS = Frontend (static)
+
+C# + Razor + ASP.NET = Backend (dynamic, powerful)
+
+🔹 2. Technologies Used
+Technology	Description
+ASP.NET	A web framework for building modern web apps using .NET.
+Razor Syntax	A markup syntax for embedding C# into HTML.
+C#	The backend programming language used to handle logic.
+
+🔹 3. Structure of a Web Page
+Typical structure in ASP.NET Web Pages:
+
+html
+Copy
+Edit
+@{
+    var message = "Welcome to C# Web Page!";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My C# Page</title>
+</head>
+<body>
+    <h1>@message</h1>
+</body>
+</html>
+Explanation:
+@{} block: server-side C# code.
+
+@message: output of C# variable inside HTML.
+
+🔹 4. Life Cycle of a Web Page
+Request Received by the server.
+
+Page Initialization.
+
+Load: Data and controls are loaded.
+
+Render: HTML is generated from Razor + C#.
+
+Response Sent back to browser.
+
+🔹 5. Key Features
+✅ Easy syntax using Razor
+✅ Full power of C#
+✅ Integration with databases (SQL Server, etc.)
+✅ Good for small to medium web apps
+✅ Supports authentication, routing, and layouts
+
+🔹 6. Razor Syntax Basics
+Task	Syntax Example
+Variable	@name = "Ishwor"
+Output	@name
+If Statement	@if (true) { <p>Yes</p> }
+Loop	@for (int i = 0; i < 5; i++) { <p>@i</p> }
+
+🔹 7. Real Life Example
+Login Form with C# behind:
+
+html
+Copy
+Edit
+<form method="post">
+    <input type="text" name="username" />
+    <input type="password" name="password" />
+    <input type="submit" value="Login" />
+</form>
+
+@{
+    if (IsPost) {
+        var user = Request["username"];
+        var pass = Request["password"];
+        if(user == "admin" && pass == "123") {
+            <p>Login successful</p>
+        } else {
+            <p>Invalid credentials</p>
+        }
+    }
+}
+🔹 8. Advantages
+Fast to build small web apps.
+
+Razor syntax is clean and simple.
+
+C# makes backend powerful.
+
+Easy to learn for beginners.
+
+Works well with SQL databases.
+
+🔹 9. Tools to Use
+Visual Studio / VS Code
+
+.NET SDK
+
+WebMatrix (older, beginner tool)
+
+SQL Server (for DB)
+
+🔹 10. ASP.NET vs ASP.NET Core
+Feature	ASP.NET (Web Pages)	ASP.NET Core
+Platform	Windows	Cross-platform
+Performance	Moderate	High
+Modern Support	Less	Yes (future-proof)
+
+
 
