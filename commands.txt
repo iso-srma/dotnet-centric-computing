@@ -526,3 +526,32 @@ Here’s what you can build in 2025 with C#:
 🌐 Full-stack Blazor app (no JS needed)
 
 ⚡ Super-fast microservice with Minimal APIs + AOT
+
+🧠 Bonus – Other Cool Trends You Should Watch
+🔹 GitHub Copilot++
+AI writing C# code? Yes.
+
+Write comments, and Copilot writes the actual method. It’s next-level.
+
+🔹 Minimal APIs in .NET
+Build REST APIs with just a few lines of code (no controller bloat)
+
+csharp
+Copy
+Edit
+app.MapGet("/", () => "Hello API");
+🔹 Native AOT Apps
+Compile C# into super lightweight executables
+
+⚡️ For fast-loading apps, IoT, containers, etc.
+
+🧪 Want to Try Something New?
+Here’s what you can build in 2025 with C#:
+
+✨ AI-powered to-do app (with Copilot or Azure AI)
+
+📱 Mobile app with .NET MAUI
+
+🌐 Full-stack Blazor app (no JS needed)
+
+⚡ Super-fast microservice with Minimal APIs + AOT
